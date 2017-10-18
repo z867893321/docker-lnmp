@@ -18,7 +18,7 @@ nginx:
 
 # php-fpm
 fpm:
-  build: ./php-fpm
+  image:docker pull registry.cn-hangzhou.aliyuncs.com/zmf/php:10-18
   ports:
     - "9000"
   volumes:
